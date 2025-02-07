@@ -1,5 +1,8 @@
 # React + Vite
 
+##npm i typewriter-effect
+To install typewwriter effect
+
 This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
 
 Currently, two official plugins are available:

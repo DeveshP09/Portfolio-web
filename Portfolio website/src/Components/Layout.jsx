@@ -3,6 +3,7 @@ import { AiOutlineDoubleLeft, AiOutlineDoubleRight } from "react-icons/ai";
 import "./layout.css";
 import { useState } from "react";
 import Menus from "./Menus";
+import Card from "../Pages/Home/card";
 
 const Layout = () => {
   const [toggle, setToggle] = useState(true);
@@ -20,7 +21,7 @@ const Layout = () => {
           <div className="sidebar-toggle-icons">
             <p onClick={handleToggle}>
               {toggle ? (
-                <AiOutlineDoubleLeft size={30} /> 
+                <AiOutlineDoubleLeft size={30} />
               ) : (
                 <AiOutlineDoubleRight size={30} />
               )}

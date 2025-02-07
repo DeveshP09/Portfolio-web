@@ -1,0 +1,53 @@
+.home-container {
+  height: 400px;
+  margin-left: 120px;
+}
+.home-content h2 {
+  color: #2e373f;
+  font-family: "Poppins", serif;
+  padding-top: 140px;
+}
+.home-content h1 {
+  font-family: "Poppins", serif;
+  color: #5a67d8;
+  font-weight: 700;
+  font-size: 3.5rem;
+  padding-top: 20px;
+}
+.home-buttons {
+  padding-top: 30px;
+}
+.home-buttons .btn-hire {
+  background-color: #5a67d8;
+  text-align: center;
+  color: white;
+  width: 150px;
+  padding: 12px;
+  cursor: pointer;
+  border-radius: 8px;
+  font-family: Roboto, sans-serif;
+  font-weight: 500;
+  letter-spacing: 0.5px;
+}
+.home-buttons .btn-hire:hover {
+  background-color: #4b58cc;
+  box-shadow: 0 4px 6px #5a67d833;
+  transition: all 0.3s ease;
+}
+.home-buttons .btn-cv {
+  background-color: #48bb78;
+  color: white;
+  width: 140px;
+  padding: 12px;
+  cursor: pointer;
+  border-radius: 8px;
+  font-family: Roboto, sans-serif;
+  font-weight: 500;
+  letter-spacing: 0.5px;
+  margin-left: 40px;
+}
+.home-buttons .btn-cv:hover {
+  background-color: #289f5a;
+  box-shadow: 0 4px 6px #5a67d833;
+  transition: all 0.3s ease;
+}
