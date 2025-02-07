@@ -4,7 +4,7 @@
 }
 .sidebar{
     height:100vh;
-    background-color: #1e1e2c;
+    background-color: #061829;
     width: 90px;
 }
 .sidebar-toggle{
@@ -14,10 +14,15 @@
     display: flex;
     align-items: right;
     justify-content: right;
-    cursor: pointer;
 }
 .sidebar-toggle-icons svg{
-    background-color: #f29f67;
+    background-color: #0d6efd;
     color: white;
-    margin-top: 30px;
+    margin-top: 20px;
+    margin-right: 10px;
+    border-radius: 50%;
+    cursor: pointer;
+}
+.sidebar-toggle-icons svg:hover{
+    background-color: #4ac27c;
 }
