@@ -1,0 +1,70 @@
+.techstack {
+  width: 90%;
+  margin: 30px 0px;
+  margin-left: 160px;
+  padding: 2rem;
+  background-color: rgb(26, 32, 44);
+}
+.techstack h1 {
+  color: #5a67d8;
+  font-family: "Poppins", serif;
+  font-size: 3rem;
+  font-weight: 650;
+}
+.techstack hr {
+  height: 3px;
+  max-width: 200px;
+  background: linear-gradient(
+    90deg,
+    rgba(0, 0, 0, 0),
+    rgb(90, 103, 216),
+    rgba(0, 0, 0, 0)
+  );
+  border-width: initial;
+  border-style: none;
+  border-color: initial;
+  border-image: initial;
+  margin: 1.5rem auto 2rem;
+}
+.card {
+  background-color: rgb(45, 55, 72);
+  border: 0.5px solid #3f4154bf;
+  border-radius: 6px;
+  box-shadow: 0 2px 4px #0000000f;
+  
+}
+.media {
+  margin-bottom: 5px;
+}
+
+.tech-icon {
+  color: rgb(90, 103, 216);
+  height: 1.8rem;
+  width: 1.5rem;
+  margin-right: 20px;
+}
+.media-body h5 {
+  color: rgb(226, 232, 240);
+  font-family: "Poppins", serif;
+  font-size: 1rem;
+  font-weight: 500;
+  margin-top: 10px;
+}
+
+.progress {
+  height: 4px;
+  background-color: rgb(74, 85, 104);
+}
+.progress-bar {
+  background: linear-gradient(90deg, rgb(90, 103, 216), rgb(72, 187, 120));
+}
+
+.techstack .card {
+  cursor: pointer;
+}
+.techstack .card:hover {
+  box-shadow: rgba(173, 173, 197, 0.058) 0px 7px 29px 0px;
+  border-color: aliceblue;
+  transition: all 0.3s ease;
+  
+}
