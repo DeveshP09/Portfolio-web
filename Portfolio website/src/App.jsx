@@ -4,6 +4,7 @@ import Layout from "./Components/Layout";
 import About from "./Pages/About/About";
 import Skills from "./Pages/Skills/Skills";
 import Projects from "./Pages/Projects/Projects";
+import Education from "./Pages/Educations/Education";
 
 function App() {
   return (
@@ -11,6 +12,7 @@ function App() {
       <Layout />
       <div className="container">
         <About></About>
+        <Education/>
         <Skills></Skills>
         <Projects></Projects>
       </div>

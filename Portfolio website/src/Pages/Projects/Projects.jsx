@@ -97,7 +97,6 @@ const Project = () => {
                 </div>
                 <div className="tags">
                   <span class="badge rounded-pill  tech-tag">Javascript</span>
-
                   <span class="badge rounded-pill  tech-tag">HTML</span>
                   <span class="badge rounded-pill  tech-tag">CSS</span>
                   <span class="badge rounded-pill  tech-tag">SQL</span>

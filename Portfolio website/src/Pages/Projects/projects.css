@@ -37,6 +37,13 @@
   border-color: rgb(255, 255, 255);
   border-radius: 20px;
   box-shadow: rgba(0, 0, 0, 0.1) 0px 20px 25px -5px, rgba(0, 0, 0, 0.04) 0px 10px 10px -5px;
+  position: relative;
+  top: 0;
+  transition: top ease 0.5s;
+}
+.projects-card .card-content:hover{
+    top: -3px;
+    box-shadow: rgba(56, 44, 44, 0.407) 0px 10px 10px -5px;;
 }
 .projects-card .card-content .image {
   border-radius: 20px 20px 0px 0px;

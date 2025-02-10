@@ -61,10 +61,15 @@
 
 .techstack .card {
   cursor: pointer;
+  position: relative;
+  top: 0;
+  transition: top ease 0.5s;   
 }
+/* to cahange the position to upward when hover */
 .techstack .card:hover {
-  box-shadow: rgba(173, 173, 197, 0.058) 0px 7px 29px 0px;
-  border-color: aliceblue;
-  transition: all 0.3s ease;
+  box-shadow: rgba(54, 70, 98, 0.371) 0px 7px 29px 0px;
+  border-color: rgb(95, 100, 105);
+  transition: all 0.5s ease;
+  top: -3px;
   
 }
