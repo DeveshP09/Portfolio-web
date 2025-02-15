@@ -5,6 +5,7 @@ import About from "./Pages/About/About";
 import Skills from "./Pages/Skills/Skills";
 import Projects from "./Pages/Projects/Projects";
 import Education from "./Pages/Educations/Education";
+import WorkExperience from "./Pages/Work-Experience/WorkExperience";
 
 function App() {
   return (
@@ -13,6 +14,7 @@ function App() {
       <div className="container">
         <About></About>
         <Education/>
+        <WorkExperience/>
         <Skills></Skills>
         <Projects></Projects>
       </div>

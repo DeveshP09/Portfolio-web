@@ -6,7 +6,9 @@
   background-color: #f7fafc;
   align-items: center;
 }
-
+.row{
+  margin-bottom: 1rem;
+}
 .about-image img {
   max-width: 100%;
   max-height: 400px;
@@ -19,17 +21,21 @@
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  
 }
 .about-content h1 {
   color: #5a67d8;
   font-family: "Poppins", serif;
   font-size: 3rem;
   font-weight: 650;
-  
 }
 .about-content p {
   text-align: justify;
   padding: 20px;
-  font-size: 1rem;
+}
+.about-content p ul {
+  text-align: left;
+  font-weight: 400;
+  color: #2a2d31;
+  font-size: 1.03rem;
+  /* margin-bottom: 3rem; */
 }

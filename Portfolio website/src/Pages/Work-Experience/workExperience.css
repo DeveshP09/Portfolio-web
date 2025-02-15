@@ -1,0 +1,52 @@
+.work {
+  width: 90%;
+  margin: 30px 0px;
+  margin-left: 160px;
+  padding: 2rem;
+  background-color: #f7fafc;
+}
+
+.work h1 {
+  color: #5a67d8;
+  font-family: "Poppins", serif;
+  font-size: 3rem;
+  font-weight: 650;
+}
+
+.work hr {
+  height: 3px;
+  max-width: 450px;
+  background: linear-gradient(
+    90deg,
+    rgba(0, 0, 0, 0),
+    rgb(90, 103, 216),
+    rgba(0, 0, 0, 0)
+  );
+  border-width: initial;
+  border-style: none;
+  border-color: initial;
+  border-image: initial;
+  margin: 1.5rem auto 2rem;
+}
+
+.container .edunet {
+  color: #48bb78;
+}
+.container .certificate-link {
+  align-items: center;
+  background-color: #5a67d81a;
+  border-radius: 20px;
+  color: #5a67d8;
+  display: inline-flex;
+  gap: 0.5rem;
+  padding: 0.5rem 1rem;
+  text-decoration: none;
+  transition: all 0.3s ease;
+}
+.certificate-link:hover{
+    background-color: #5a67d84e;
+}
+.line::before{
+    width: 1px;
+    color: #8c954b3f
+}
