@@ -8,7 +8,7 @@ const Skills = () => {
         <h1 className="col-12 mt-3 mb-1 text-center">Skills</h1>
         <hr />
 
-        <div className="row">
+        <div className="row" id="skills">
           {techstackList.map((tech) => (
             <div key={tech.id} className="col-md-3">
               <div className="card m-2">

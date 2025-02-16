@@ -6,7 +6,7 @@ import { FaGithub } from "react-icons/fa";
 const Contact = () => {
   return (
     <>
-      <div className="container contact">
+      <div className="container contact" id="contact">
         <div className="card card0 border-0">
           <div className="row">
             <div className="col-md-6 col-lg-6 col-xl-6 col-sm-12">
@@ -27,11 +27,17 @@ const Contact = () => {
                     Connect with
                     <div>
                       <div className="icons">
-                        <a href="https://www.linkedin.com/in/devesh-patil-113036246/" className="linkedin">
+                        <a
+                          href="https://www.linkedin.com/in/devesh-patil-113036246/"
+                          className="linkedin"
+                        >
                           <IoLogoLinkedin />
                         </a>
-                        <a href="https://github.com/DeveshP09" className="github">
-                          <FaGithub/>
+                        <a
+                          href="https://github.com/DeveshP09"
+                          className="github"
+                        >
+                          <FaGithub />
                         </a>
                       </div>
                     </div>
@@ -46,7 +52,7 @@ const Contact = () => {
                   <input
                     type="text"
                     name="name"
-                    placeholder="write your name"
+                    placeholder="Your Name"
                     className="mb-1"
                   />
                 </div>
@@ -54,7 +60,7 @@ const Contact = () => {
                   <input
                     type="email"
                     name="email"
-                    placeholder="enter your email"
+                    placeholder="Your Email"
                     className="mb-1"
                   />
                 </div>
@@ -62,7 +68,7 @@ const Contact = () => {
                   <textarea
                     type="text"
                     name="message"
-                    placeholder="write your message"
+                    placeholder="Your Message"
                     className="mb-3"
                   />
                 </div>

@@ -1,5 +1,13 @@
-.footer h4{
-    font-weight: 200;
-    font-family: "Poppins", serif;
-    color: #0077b5;
+.footer h4 {
+  font-weight: 200;
+  font-family: "Poppins", serif;
+  color: #0077b5;
+}
+.scroll {
+  height: 50px !important;
+  width: 50px !important;
+  background-color: #5a67d8 !important;
+  border-radius: 80px !important;
+  position: fixed;
+  left: 91rem;
 }

@@ -8,6 +8,8 @@ import Projects from "./Pages/Projects/Projects";
 import Education from "./Pages/Educations/Education";
 import WorkExperience from "./Pages/Work-Experience/WorkExperience";
 import Contact from "./Pages/Contact/Contact";
+import ScrollToTop from "react-scroll-to-top";
+import { Link} from 'react-scroll';
 
 function App() {
   return (
@@ -15,8 +17,8 @@ function App() {
       <Layout />
       <div className="container">
         <About></About>
-        <Education/>
-        <WorkExperience/>
+        <Education />
+        <WorkExperience />
         <Skills></Skills>
         <Projects></Projects>
         <Contact></Contact>
@@ -24,6 +26,14 @@ function App() {
       <div className="footer">
         <h4 className="text-center ">Made With ❤️ Devesh @2025</h4>
       </div>
+      <ScrollToTop
+        smooth
+        color="#fff"
+        height="30"
+        width="20"
+        className="scroll"
+        
+      />
     </>
   );
 }
