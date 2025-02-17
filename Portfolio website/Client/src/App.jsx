@@ -2,6 +2,7 @@ import React from "react";
 import "./app.css";
 import "bootstrap/dist/css/bootstrap.min.css";
 import Layout from "./Components/Layout";
+import MobileNav from "./Components/MobileNav/MobileNav.jsx";
 import About from "./Pages/About/About";
 import Skills from "./Pages/Skills/Skills";
 import Projects from "./Pages/Projects/Projects";
@@ -14,6 +15,7 @@ import { Link} from 'react-scroll';
 function App() {
   return (
     <>
+    <MobileNav/>
       <Layout />
       <div className="container">
         <About></About>

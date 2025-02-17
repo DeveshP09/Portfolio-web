@@ -18,64 +18,64 @@ const Menus = ({ toggle }) => {
             </div>
           </Zoom>
           <Fade left>
-          <div className="nav-items">
-            <div className="nav-item">
-              <div className="nav-link">
-                <Link to="home" smooth={true} duration={100}>
-                  <IoHome />
-                  Home
-                </Link>
+            <div className="nav-items">
+              <div className="nav-item">
+                <div className="nav-link">
+                  <Link to="home" smooth={true} duration={100}>
+                    <IoHome />
+                    Home
+                  </Link>
+                </div>
+              </div>
+              <div className="nav-item">
+                <div className="nav-link">
+                  <Link to="about" smooth={true} duration={100}>
+                    <IoInformationCircleSharp />
+                    About
+                  </Link>
+                </div>
+              </div>
+              <div className="nav-item">
+                <div className="nav-link">
+                  <Link to="education" smooth={true} duration={100}>
+                    <FaGraduationCap />
+                    Education
+                  </Link>
+                </div>
+              </div>
+              <div className="nav-item">
+                <div className="nav-link">
+                  <Link to="work" smooth={true} duration={100}>
+                    <MdEngineering />
+                    Work Experience
+                  </Link>
+                </div>
+              </div>
+              <div className="nav-item">
+                <div className="nav-link">
+                  <Link to="skills" smooth={true} duration={100}>
+                    <FaLaptopCode />
+                    Skills
+                  </Link>
+                </div>
+              </div>
+              <div className="nav-item">
+                <div className="nav-link">
+                  <Link to="projects" smooth={true} duration={100}>
+                    <MdWebStories />
+                    Projects
+                  </Link>
+                </div>
+              </div>
+              <div className="nav-item">
+                <div className="nav-link">
+                  <Link to="contact" smooth={true} duration={100}>
+                    <IoMdContact />
+                    Contact
+                  </Link>
+                </div>
               </div>
             </div>
-            <div className="nav-item">
-              <div className="nav-link">
-                <Link to="about" smooth={true} duration={100}>
-                  <IoInformationCircleSharp />
-                  About
-                </Link>
-              </div>
-            </div>
-            <div className="nav-item">
-              <div className="nav-link">
-                <Link to="education" smooth={true} duration={100}>
-                  <FaGraduationCap />
-                  Education
-                </Link>
-              </div>
-            </div>
-            <div className="nav-item">
-              <div className="nav-link">
-                <Link to="work" smooth={true} duration={100}>
-                  <MdEngineering />
-                  Work Experience
-                </Link>
-              </div>
-            </div>
-            <div className="nav-item">
-              <div className="nav-link">
-                <Link to="skills" smooth={true} duration={100}>
-                  <FaLaptopCode />
-                  Skills
-                </Link>
-              </div>
-            </div>
-            <div className="nav-item">
-              <div className="nav-link">
-                <Link to="projects" smooth={true} duration={100}>
-                  <MdWebStories />
-                  Projects
-                </Link>
-              </div>
-            </div>
-            <div className="nav-item">
-              <div className="nav-link">
-                <Link to="contact" smooth={true} duration={100}>
-                  <IoMdContact />
-                  Contact
-                </Link>
-              </div>
-            </div>
-          </div>
           </Fade>
         </>
       ) : (
