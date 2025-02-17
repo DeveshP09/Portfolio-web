@@ -59,3 +59,19 @@
   transition: all 0.3s ease;
   top: -3px;
 }
+
+
+/* ===Media queries */
+
+@media(max-width:600px){
+  .home-container{
+    padding: 0;
+    margin: 0;
+    width: 100%;
+    
+  }
+  .home-container h1{
+    font-size: 2.1rem;
+
+  }
+}

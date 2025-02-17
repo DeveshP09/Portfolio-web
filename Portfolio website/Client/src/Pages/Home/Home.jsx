@@ -21,7 +21,8 @@ const Home = () => {
           <div className="home-buttons">
             <a
               className="btn btn-hire"
-              href="https://mail.google.com/mail/?view=cm&fs=1&to=deveshpatil162@gmail.com"
+              // href="https://mail.google.com/mail/?view=cm&fs=1&to=deveshpatil162@gmail.com"
+              href="https://api.whatsapp.com/send?phone=8767263626"
               rel="noreferrer"
               target="_blank"
             >

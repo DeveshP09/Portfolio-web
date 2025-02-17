@@ -1,6 +1,6 @@
 .projects {
   width: 90%;
-  margin: 30px 0px;
+  /* margin: 30px 0px; */
   margin-left: 160px;
   padding: 2rem;
   background-color: #f7fafc;
@@ -84,4 +84,22 @@
 }
 .card-image:hover .img-overlay{
     opacity: 1;
+}
+
+
+/* ===media=== */
+
+@media(max-width:600px){
+  .projects{
+    margin: 0;
+    padding: 0;
+    width: 100%;
+  
+  }
+  .projects h1{
+    font-size: 1.8rem;
+  }
+  .projects-card{
+    display: block;
+  }
 }
