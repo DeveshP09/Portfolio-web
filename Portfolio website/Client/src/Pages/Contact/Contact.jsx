@@ -1,7 +1,7 @@
 import "./contact.css";
 import "bootstrap/dist/css/bootstrap.min.css";
 import { IoLogoLinkedin } from "react-icons/io5";
-import { FaGithub } from "react-icons/fa";
+import { FaGithub, FaWhatsappSquare } from "react-icons/fa";
 
 const Contact = () => {
   return (
@@ -38,6 +38,12 @@ const Contact = () => {
                           className="github"
                         >
                           <FaGithub />
+                        </a>
+                        <a
+                          href="https://api.whatsapp.com/send?phone=8767263626"
+                          className="whatsapp"
+                        >
+                          <FaWhatsappSquare />
                         </a>
                       </div>
                     </div>

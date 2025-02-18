@@ -61,9 +61,20 @@
 .github:hover svg {
   color: rgb(176, 138, 67);
 }
+.whatsapp svg{
+  color:#25d366; /* LinkedIn blue */
+  width: 40px; /* Adjust size */
+  height: 40px;
+}
+.whatsapp:hover svg {
+  color: rgb(176, 138, 67);
+}
 .linkedin {
-  margin-left: 30px;
-  margin-right: 20px;
+  margin-left: 20px;
+  margin-right: 10px;
+}
+.whatsapp{
+  margin-left: 10px;
 }
 
 .contact .line {
