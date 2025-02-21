@@ -66,6 +66,10 @@
     margin-bottom: 10px;
     background-color: rgb(216, 219, 224);
 }
+.card-headimg{
+  display: flex;
+  gap: 15px;
+}
  
 /* Image */
 

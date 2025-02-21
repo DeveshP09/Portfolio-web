@@ -19,6 +19,9 @@ https://www.npmjs.com/package/react-reveal
 cors : To access react and node application on same port
 dotenv : to store the confidential data
 
+## Email sender using emailjs
+https://www.emailjs.com/docs/examples/reactjs/
+
 This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
 
 Currently, two official plugins are available:

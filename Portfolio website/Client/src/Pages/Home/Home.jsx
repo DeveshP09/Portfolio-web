@@ -1,7 +1,7 @@
 import "./home.css";
 import Typewriter from "typewriter-effect";
 import resume from "../../assets/Docs/Devesh_Patil_resume.pdf";
-import Card from "./card";
+// import Card from "./card";
 
 const Home = () => {
   return (

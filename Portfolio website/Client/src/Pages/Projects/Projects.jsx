@@ -19,7 +19,15 @@ const Project = () => {
               </div>
 
               <div class="card-body ">
-                <h5 class="card-title">Ecommerce Website</h5>
+                <div className="card-headimg">
+                  <h5 class="card-title">Ecommerce Website </h5>
+                  <a
+                    href="https://github.com/DeveshP09/The-Unique-One"
+                    class="link-primary link-offset-2 link-underline-opacity-25 link-underline-opacity-100-hover"
+                  >
+                    (Open)
+                  </a>
+                </div>
 
                 <div
                   class="progress"
@@ -54,7 +62,16 @@ const Project = () => {
                 alt="project1"
               />
               <div class="card-body ">
-                <h5 class="card-title">Myntra Clone</h5>
+                <div className="card-headimg">
+                  <h5 class="card-title">Myntra Clone</h5>
+                  <a
+                    href="https://github.com/DeveshP09/"
+                    class="link-primary link-offset-2 link-underline-opacity-25 link-underline-opacity-100-hover"
+                  >
+                    (Open)
+                  </a>
+                </div>
+
                 <div
                   class="progress"
                   role="progressbar"
@@ -84,7 +101,16 @@ const Project = () => {
                 alt="project1"
               />
               <div class="card-body ">
-                <h5 class="card-title">Food Hub</h5>
+                <div className="card-headimg">
+                  <h5 class="card-title">Food Hub</h5>
+                  <a
+                    href="https://github.com/DeveshP09/"
+                    class="link-primary link-offset-2 link-underline-opacity-25 link-underline-opacity-100-hover"
+                  >
+                    (Open)
+                  </a>
+                </div>
+
                 <div
                   class="progress"
                   role="progressbar"

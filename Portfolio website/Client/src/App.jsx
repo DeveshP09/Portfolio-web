@@ -10,12 +10,12 @@ import Education from "./Pages/Educations/Education";
 import WorkExperience from "./Pages/Work-Experience/WorkExperience";
 import Contact from "./Pages/Contact/Contact";
 import ScrollToTop from "react-scroll-to-top";
-import { Link} from 'react-scroll';
+import { Link } from "react-scroll";
 
 function App() {
   return (
     <>
-    <MobileNav/>
+      <MobileNav />
       <Layout />
       <div className="container">
         <About></About>
@@ -34,7 +34,6 @@ function App() {
         height="30"
         width="20"
         className="scroll"
-        
       />
     </>
   );
