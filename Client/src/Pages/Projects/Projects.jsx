@@ -4,7 +4,7 @@ const Project = () => {
   return (
     <>
       <div className="container projects " id="projects">
-        <h1 className="col-12 mt-3 mb-1 text-center">Projects</h1>
+        <h1 className="col-12 mt-3 mb-1 text-center">Works</h1>
         <hr />
 
         <div className="projects-card">

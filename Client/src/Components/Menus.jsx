@@ -35,14 +35,7 @@ const Menus = ({ toggle }) => {
                   </Link>
                 </div>
               </div>
-              <div className="nav-item">
-                <div className="nav-link">
-                  <Link to="education" smooth={true} duration={100}>
-                    <FaGraduationCap />
-                    Education
-                  </Link>
-                </div>
-              </div>
+              
               <div className="nav-item">
                 <div className="nav-link">
                   <Link to="work" smooth={true} duration={100}>
@@ -51,6 +44,16 @@ const Menus = ({ toggle }) => {
                   </Link>
                 </div>
               </div>
+
+              <div className="nav-item">
+                <div className="nav-link">
+                  <Link to="education" smooth={true} duration={100}>
+                    <FaGraduationCap />
+                    Education
+                  </Link>
+                </div>
+              </div>
+
               <div className="nav-item">
                 <div className="nav-link">
                   <Link to="skills" smooth={true} duration={100}>
@@ -63,7 +66,7 @@ const Menus = ({ toggle }) => {
                 <div className="nav-link">
                   <Link to="projects" smooth={true} duration={100}>
                     <MdWebStories />
-                    Projects
+                    Works
                   </Link>
                 </div>
               </div>
@@ -96,17 +99,19 @@ const Menus = ({ toggle }) => {
                 </Link>
               </div>
             </div>
-            <div className="nav-item">
-              <div className="nav-link">
-                <Link to="education" smooth={true} duration={100}>
-                  <FaGraduationCap />
-                </Link>
-              </div>
-            </div>
+           
             <div className="nav-item">
               <div className="nav-link">
                 <Link to="work" smooth={true} duration={100}>
                   <MdEngineering />
+                </Link>
+              </div>
+            </div>
+
+            <div className="nav-item">
+              <div className="nav-link">
+                <Link to="education" smooth={true} duration={100}>
+                  <FaGraduationCap />
                 </Link>
               </div>
             </div>
