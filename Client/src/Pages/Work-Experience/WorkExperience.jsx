@@ -4,8 +4,12 @@ import {
   VerticalTimelineElement,
 } from "react-vertical-timeline-component";
 import "react-vertical-timeline-component/style.min.css";
+import WorkModal from "./Modal";
+import { useState } from "react";
 
 const WorkExperience = () => {
+    const [showModal, setShowModal] = useState(false);
+
   return (
     <>
       <div className="container work " id="work">
@@ -13,6 +17,54 @@ const WorkExperience = () => {
         <hr />
 
         <VerticalTimeline lineColor="#1a202c3f" className="line">
+          <VerticalTimelineElement
+            className="vertical-timeline-element--work"
+            contentStyle={{
+              background: "#fff",
+              color: "#000",
+              boxShadow: "0 4px 6px #0000001a",
+              borderRadius: "12px",
+            }}
+            date="April 2025 - present"
+            iconStyle={{ background: "#fff", color: "#fff" }}
+            icon={
+              <div style={{ display: "flex", justifyContent: "center", alignItems: "center", height: "100%" }}>
+                <img src="/newriggle4.png" style={{ width: "90%", objectFit: "contain" }} />
+              </div>
+            }
+
+            // icon={<FaGraduationCap/>}
+          >
+            <h3 className="vertical-timeline-element-title">Frontend Engineer</h3>
+            <h4 className="vertical-timeline-element-subtitle edunet">
+              Riggle
+            </h4>
+            <p>Mumbai, MH</p>
+
+            <div className="button-container">
+              <div
+                className="certificate-link"
+                onClick={() => setShowModal(true)}
+              >
+                <span>View Work</span>
+                <svg
+                  stroke="currentColor"
+                  fill="none"
+                  strokewidth="2"
+                  viewBox="0 0 24 24"
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                  height="1em"
+                  width="1em"
+                  xmlns="http://www.w3.org/2000/svg"
+                >
+                  <path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"></path>
+                  <polyline points="15 3 21 3 21 9"></polyline>
+                  <line x1="10" y1="14" x2="21" y2="3"></line>
+                </svg>
+              </div>
+            </div>
+          </VerticalTimelineElement>
           <VerticalTimelineElement
             className="vertical-timeline-element--work"
             contentStyle={{
@@ -60,6 +112,7 @@ const WorkExperience = () => {
             </div>
           </VerticalTimelineElement>
         </VerticalTimeline>
+        <WorkModal showModal={showModal} setShowModal={setShowModal}/>
       </div>
     </>
   );

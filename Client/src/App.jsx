@@ -18,12 +18,12 @@ function App() {
       <MobileNav />
       <Layout />
       <div className="container">
-        <About></About>
-        <Education />
+        <About />
         <WorkExperience />
-        <Skills></Skills>
-        <Projects></Projects>
-        <Contact></Contact>
+        <Education />
+        <Skills />
+        <Projects />
+        <Contact />
       </div>
       <div className="footer">
         <h4 className="text-center ">Made With ❤️ Devesh @2025</h4>
