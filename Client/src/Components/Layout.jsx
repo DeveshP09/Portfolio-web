@@ -3,7 +3,7 @@ import { AiOutlineDoubleLeft, AiOutlineDoubleRight } from "react-icons/ai";
 import "./layout.css";
 import { useState } from "react";
 import Menus from "./Menus";
-import Card from "../Pages/Home/card";
+import Card from "../Pages/Home/Card";
 
 const Layout = () => {
   const [toggle, setToggle] = useState(true);
