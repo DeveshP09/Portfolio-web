@@ -1,5 +1,5 @@
 import React from "react";
-import "./app.css";
+import "./App.css";
 import "bootstrap/dist/css/bootstrap.min.css";
 import Layout from "./Components/Layout";
 import MobileNav from "./Components/MobileNav/MobileNav.jsx";
