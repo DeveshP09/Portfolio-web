@@ -9,6 +9,7 @@ import { useState } from "react";
 
 const WorkExperience = () => {
     const [showModal, setShowModal] = useState(false);
+    console.log(showModal);
 
   return (
     <>

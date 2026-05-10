@@ -4,8 +4,7 @@ import { FaGraduationCap, FaLaptopCode } from "react-icons/fa6";
 import { MdEngineering, MdWebStories } from "react-icons/md";
 import { IoMdContact } from "react-icons/io";
 import { Link } from "react-scroll";
-import Zoom from "react-reveal/Zoom";
-import Fade from "react-reveal/Fade";
+import { Zoom, Fade } from "react-awesome-reveal";
 
 const Menus = ({ toggle }) => {
   return (
@@ -17,7 +16,7 @@ const Menus = ({ toggle }) => {
               <img src="../public/profile2.png" alt="profile pic" />
             </div>
           </Zoom>
-          <Fade left>
+          <Fade direction="left" triggerOnce>
             <div className="nav-items">
               <div className="nav-item">
                 <div className="nav-link">

@@ -1,21 +1,54 @@
 import Modal from "react-modal";
-
-Modal.setAppElement("#root"); // required for accessibility
+import "slick-carousel/slick/slick.css";
+import "slick-carousel/slick/slick-theme.css";
+import Slider from "react-slick";
 
 const WorkModal = ({ showModal, setShowModal }) => {
+  console.log("Modal Render:", showModal);
+
+  const settings = {
+    dots: true,
+    infinite: true,
+    speed: 500,
+    slidesToShow: 1,
+    slidesToScroll: 1
+  };
+
   return (
     <Modal
       isOpen={showModal}
       onRequestClose={() => setShowModal(false)}
-      className="modal"
-      overlayClassName="modal-overlay"
-    >
-      <h2>Work Details</h2>
-      <p>This is modal content.</p>
+      style={{
+        overlay: {
+          backgroundColor: "rgba(0,0,0,0.6)",
+          zIndex: 9999
+        },
+        content: {
+          width: "700px",
+        //   height: "400px",
+          margin: "auto",
+          borderRadius: "10px",
+          padding: "20px"
+        }
+      }}
+    ><h2>Riggle Work</h2>
 
-      <button onClick={() => setShowModal(false)}>
-        Close
-      </button>
+      <Slider {...settings}>
+        <div>
+          <img src="/Food_Hub.png" className="carousel-img" width={300} height={100} />
+        </div>
+
+        <div>
+          <img src="/Food_Hub.png" className="carousel-img" width={300} height={100} />
+        </div>
+
+        <div>
+          <img src="/Food_Hub.png" className="carousel-img" />
+        </div>
+      </Slider>
+
+
+      <button onClick={() => setShowModal(false)}>Close</button>
     </Modal>
   );
 };

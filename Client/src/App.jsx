@@ -11,6 +11,9 @@ import WorkExperience from "./Pages/Work-Experience/WorkExperience";
 import Contact from "./Pages/Contact/Contact";
 import ScrollToTop from "react-scroll-to-top";
 import { Link } from "react-scroll";
+import Modal from "react-modal";
+
+Modal.setAppElement("#root");
 
 function App() {
   return (
